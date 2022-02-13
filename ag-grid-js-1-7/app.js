@@ -27,3 +27,7 @@ fetch('https://www.ag-grid.com/example-assets/row-data.json')
       gridOptions.api.setRowData(data);
       console.log(data)
   });
+
+  const grabElement = () => {
+      console.log('grab element')
+  }
